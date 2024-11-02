@@ -1,3 +1,3 @@
-import { p1, p2 } from "./peoples.js";
+const prenom = require("./peoples");
 
-console.log(p1);
+import peoples from "./peoples.js";
