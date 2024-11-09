@@ -1,6 +1,6 @@
 import { URL } from "url";
 const url = new URL(
-  "htpps://www.example.com:8080/p/a/t/h?query=string&aa=string2#hash"
+  "https://www.example.com:8080/p/a/t/h?query=string&aa=string2#hash"
 );
 console.log("hash de l'url ");
 console.log(url.hash);
